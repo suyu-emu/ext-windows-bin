@@ -3,7 +3,7 @@ name: Mirror Git
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 */21 * *"
 
 jobs:
   mirror:
